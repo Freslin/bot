@@ -211,6 +211,7 @@
         .addComponents(  new MessageButton()
           .setCustomId('B1')
           .setDisabled(true)
+          .setLabel('Button Deactivated')
           .setStyle('SECONDARY'),
         ))]}).then(async m=>{
     
